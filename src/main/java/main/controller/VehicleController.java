@@ -48,6 +48,4 @@ public class VehicleController {
         }
         return "Vehicle not found";
     }
-
-
 }
