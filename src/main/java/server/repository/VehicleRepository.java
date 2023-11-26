@@ -1,8 +1,8 @@
-package main.repository;
+package server.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import main.model.Vehicle;
+import server.model.Vehicle;
 
 import java.util.Optional;
 

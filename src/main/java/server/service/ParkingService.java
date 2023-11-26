@@ -1,7 +1,7 @@
-package main.service;
+package server.service;
 
-import main.model.Parking;
-import main.repository.ParkingRepository;
+import server.model.Parking;
+import server.repository.ParkingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

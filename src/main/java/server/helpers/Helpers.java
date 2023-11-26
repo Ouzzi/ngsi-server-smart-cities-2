@@ -1,6 +1,7 @@
-package main.helpers;
+package server.helpers;
 
 import org.json.JSONObject;
+import org.json.XML;
 
 public class Helpers {
 
@@ -23,5 +24,10 @@ public class Helpers {
 
         // Gibt die String-Repräsentation des JSON-Objekts zurück
         return jsonObject.toString();
+    }
+
+    public static String convertToXml(String jsonStr) {
+        JSONObject json = new JSONObject(jsonStr);
+        return XML.toString(json);
     }
 }

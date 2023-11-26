@@ -1,8 +1,8 @@
-package main.controller;
+package server.controller;
 
-import main.helpers.Helpers;
-import main.model.Vehicle;
-import main.service.VehicleService;
+import server.helpers.Helpers;
+import server.model.Vehicle;
+import server.service.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

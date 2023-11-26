@@ -1,13 +1,13 @@
-package main.controller;
+package server.controller;
 
-import main.model.Parking;
-import main.helpers.Helpers;
+import server.model.Parking;
+import server.helpers.Helpers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import main.service.ParkingService;
+import server.service.ParkingService;
 
 @RestController
 @RequestMapping("/api")
